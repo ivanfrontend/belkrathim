@@ -3441,7 +3441,8 @@ div.pp_overlay
 }
 .jx-tags-footer ul li
 {
-	background: rgb(239, 30, 37);
+	/*background: rgb(239, 30, 37);*/
+	transition: .5s;
 	color: #fff;
 	border: 1px solid #fff;
 	float: left;
@@ -3453,8 +3454,9 @@ div.pp_overlay
 }
 .jx-tags-footer ul li:hover
 {
-	background: #ffb300;
-	color: #000;
+	/*background: #ffb300;*/
+	transition: .5s;
+	color: rgb(239, 30, 37);
 	cursor: pointer;
 }
 .jx-footer-section .jx-border
@@ -4968,6 +4970,36 @@ color: #074784;
 }
 .my_tel_block h2{
 	color: #fff;
+}
+
+.top_img{
+	position: relative;
+	height: 500px;
+	width: 100%;
+	background: url(../images/myimg/slaid6s.jpg) 100% 100% no-repeat;
+    background-size: cover;
+}
+.name_title{
+	background: rgba(239, 30, 37, .5);
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    bottom: 0px;
+    z-index: 1;
+    max-width: auto;
+    max-height: auto;
+    white-space: nowrap;
+}
+.prais{
+	font-size: 24px;
+	color: #fff;
+	padding: 5px;
+	background: #074784;
+
 }
 /* Конец мои стили */
 

@@ -27,3 +27,7 @@ if(color=="E22467"){var skin_link="http://janxcode.com/rebuild/css/skins/pink.cs
 if(color=="f5a823"){var skin_link="http://janxcode.com/rebuild/css/skins/sun.css";jQuery('#skin').attr('href',skin_link);$b.css('background-color',color);jQuery.cookie("css",skin_link,{expires:365,path:'/'});return false;}
 if(color=="9dc032"){var skin_link="http://janxcode.com/rebuild/css/skins/greentea.css";jQuery('#skin').attr('href',skin_link);$b.css('background-color',color);jQuery.cookie("css",skin_link,{expires:365,path:'/'});return false;}
 if(color=="32b4c0"){var skin_link="http://janxcode.com/rebuild/css/skins/torquze.css";jQuery('#skin').attr('href',skin_link);$b.css('background-color',color);jQuery.cookie("css",skin_link,{expires:365,path:'/'});return false;}});}};Theme.initialize();})();
+ 
+
+var heit = jQuery('.jx-menu-holder').height();
+jQuery('.wrapp_jx-menu-holder').css({"height":heit});
