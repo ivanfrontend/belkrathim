@@ -967,7 +967,7 @@ li p
 }
 .stream-icon-notebook-streamline:before
 {
-	content:"
+	content:";
 	{
 	}
 	.stream-icon-settings-streamline:before
@@ -3215,7 +3215,7 @@ div.pp_overlay
 }
 .jx-footer-1 .jx-footer
 {
-	background: #074784;
+	background: #31353a;
 	color: #ccc;
 	padding: 20px 0px;
 }
@@ -3573,7 +3573,7 @@ div.pp_overlay
 {
 	font-family: open sans;
 	margin: 0;
-	padding: 0 0 26px;
+	padding: 0 0 10px;
 }
 .jx-footer-address li i
 {
