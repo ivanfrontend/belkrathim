@@ -3205,7 +3205,7 @@ div.pp_overlay
 .jx-footer-section
 {
 	position: relative;
-	z-index: 0;
+	z-index: 10;
 }
 .jx-footer-1 .jx-footer-logo
 {
@@ -5001,5 +5001,56 @@ color: #074784;
 	background: #074784;
 
 }
+.my_center li{
+	display: inline-block !important;
+    float: none !important;
+}
+.index_page .container{
+	text-align: center;
+}
+.index_page .columns{
+	float: none !important;
+    display: inline-block !important;
+    width: 130px !important;
+    height: 130px;
+    font-size: 50px !important;
+}
+.index_page .jx-counter-up .count_number{
+	font-size: 50px !important;
+	margin: 0px !important;
+	line-height: 0px !important;
+}
+.index_page .jx-counter-up .counter_text h6{
+	color: #fff !important;
+}
+.index_page .jx-title{
+	color: #fff;
+}
+.index_page .jx-counter-up .count_number{
+	color: #fff;
+}
+
+.my_zindex2endbg{
+	z-index: 20;
+	background-color: #fff
+}
+header{
+	position: relative;
+	z-index: 30;
+}
+.my_zindex2{
+	z-index: 20;
+}
+.my_zindex1{
+	position: fixed;
+	/*z-index: 1 !important;*/
+}
+.my_zindex3{
+	z-index: 19;
+}
+/*.my_zindex_1{
+	position: relative;
+    z-index: -1;
+}*/
 /* Конец мои стили */
 
