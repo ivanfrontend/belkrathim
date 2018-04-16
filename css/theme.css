@@ -1817,6 +1817,7 @@ div.pp_overlay
 	padding-bottom: 104px;
 	padding-top: 104px;
 	position: relative;
+	z-index: 100;
 }
 .jx-container.jx-padding-top
 {
