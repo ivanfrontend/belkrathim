@@ -1817,7 +1817,7 @@ div.pp_overlay
 	padding-bottom: 104px;
 	padding-top: 104px;
 	position: relative;
-	z-index: 100;
+	z-index: 16;
 }
 .jx-container.jx-padding-top
 {
@@ -5082,6 +5082,37 @@ background-color: #074784 !important;
 .my_style .jx-seperator-hr{
 	display: inline-block;
 	
+}
+.phone{
+	position: 	relative;
+	padding-bottom: 5px;	
+}
+.phone span i{
+	font-size: 25px;
+    position: absolute;
+    left: -30px;
+}
+
+.jx-contact-info i{
+	font-size: 34px;
+	position: relative;
+    left: -10px;
+}
+.my_float{
+	margin-left: 0px !important;
+    margin-right: 20px !important;
+	margin-bottom: 3px;
+}
+.my_float_none{
+	float: 	none !important;
+	margin: 0px !important;	
+}
+.my_style_title_abaut{
+	position: relative;
+    top: 0px;
+}
+.my_line{
+	display: inline-block !important;	
 }
 /* Конец мои стили */
 
