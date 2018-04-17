@@ -3967,7 +3967,7 @@ div.pp_overlay
 }
 .jx-section-title-2 .jx-seperator-hr
 {
-	background-color: #ffb300;
+	background-color: #074784;
 	border: 0;
 	border-radius: 25px;
 	height: 4px;
@@ -5053,5 +5053,35 @@ header{
 	position: relative;
     z-index: -1;
 }*/
+.wrapp_help{
+	position: absolute;
+	top: 25px;
+}
+.wrapp_help h3{
+	color: #fff;
+}
+.wrapp_help p{
+	color: #fff !important;
+}
+.my_button input{
+
+background-color: #074784 !important;
+    border: 0 !important;
+    color: #fff !important;
+    cursor: pointer !important;
+    display: inline-block !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    padding: 13px 30px !important;
+    text-transform: uppercase !important;
+
+}
+.my_style{
+	text-align: right;
+}
+.my_style .jx-seperator-hr{
+	display: inline-block;
+	
+}
 /* Конец мои стили */
 
