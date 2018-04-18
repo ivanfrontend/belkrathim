@@ -5114,5 +5114,8 @@ background-color: #074784 !important;
 .my_line{
 	display: inline-block !important;	
 }
+.my_photo img{
+	width: 100%;
+}
 /* Конец мои стили */
 
