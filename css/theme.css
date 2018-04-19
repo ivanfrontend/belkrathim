@@ -4996,6 +4996,9 @@ color: #074784;
     white-space: nowrap;
 }
 .prais{
+	position: absolute;
+    bottom: 0px;
+    width: 100%;
 	font-size: 24px;
 	color: #fff;
 	padding: 5px;
@@ -5116,6 +5119,17 @@ background-color: #074784 !important;
 }
 .my_photo img{
 	width: 100%;
+}
+.slides .my_heit_img{
+	max-height: 300px;
+}
+.my_witch_tab{
+	width: 100% !important;
+}
+.podcategorii li a{
+	color: #666 ;
+	border-bottom: 1px solid;
+    padding-bottom: 5px;
 }
 /* Конец мои стили */
 

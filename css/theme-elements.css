@@ -1851,7 +1851,7 @@
 .jx-protfolio .jx-portfolio-filter ul
 {
 	margin: 0;
-	padding: 0 0 40px;
+	padding: 0 0 20px;
 	text-align: center;
 }
 .jx-protfolio .jx-portfolio-filter ul li
@@ -1859,7 +1859,8 @@
 	display: inline;
 	font-size: 14px;
 	margin: 0;
-	padding: 0 45px 0 0;
+	padding: 0 45px 35px 0;
+	display: inline-block;
 }
 .jx-protfolio .jx-portfolio-filter ul li a
 {
@@ -1871,7 +1872,7 @@
 }
 .jx-protfolio .jx-portfolio-filter ul li::after
 {
-	border: 4px solid #eee;
+	/*border: 4px solid #eee;*/
 	border-radius: 25px;
 	content: "";
 	display: inline-block;
