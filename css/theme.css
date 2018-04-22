@@ -1302,6 +1302,44 @@ button::-moz-focus-inner,input::-moz-focus-inner
 	border: 0;
 	padding: 0;
 }
+
+/*My style table*/
+
+
+.my_style_table th{
+	background-color: #fff;
+	color: #000;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1;
+}
+
+.my_style_table tr td{
+	font-size: 14px;
+	color: #000;
+	line-height: 1.6;
+}
+
+.my_style_table tr td a{
+	color: #000;
+	font-size: 14px;
+}
+.my_style_table tr td a:hover{
+	border-bottom: 1px solid #000;
+}
+.my_style_table tr:nth-child(even){
+	background-color: #ccc;
+	color: #000;
+}
+.my_style_table tr:nth-child(even) a{
+	color: #000;
+}
+.my_style_table .color_width150{
+	width: 150px;
+}
+
+/*end my style table*/
+
 form
 {
 }
@@ -5163,5 +5201,13 @@ background-color: #074784 !important;
 .wrapp_tabte_catigoris a{
 	color: #000;
 }
+.my_witch_block100{
+	width: 100% !important;
+}
+
+.my_block_info a{
+	color: #666;
+}
+
 /* Конец мои стили */
 
