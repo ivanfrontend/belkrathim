@@ -1645,7 +1645,7 @@ dl dt
 	top: 0;
 	transform: skew(20deg);
 	webkit-transform: skew(20deg);
-	width: 700px;
+	/*width: 700px;*/
 }
 .jx-shape-left.jx-shape-wide
 {
@@ -2367,6 +2367,8 @@ div.pp_overlay
 }
 .slicknav_menu
 {
+	position: relative;
+    z-index: 50;
 	display: none;
 }
 .jx-menu-holder.jx-sticky.fixed
@@ -2520,7 +2522,7 @@ div.pp_overlay
 }
 .menu li .submenu
 {
-	background-color: #074784;
+	/*background-color: #074784;*/
 	box-shadow: 0 0 3px rgba(0,0,0,.5);
 	margin: 0;
 	padding: 0;
@@ -2580,7 +2582,8 @@ div.pp_overlay
 	font-weight: 400;
 	list-style: none;
 	position: relative;
-	width: 235px;
+	background-color: #074784;
+	/*width: 235px;*/
 }
 .menu .submenu li:hover>a
 {
@@ -2609,7 +2612,7 @@ div.pp_overlay
 	background: #074784;
 	border-top: 0;
 	box-shadow: 0 0 3px rgba(0,0,0,.5);
-	left: 117px;
+	left: 143px;
 	moz-transform: translate(0px,20px);
 	opacity: 0;
 	o-transform: translate(0px,20px);
@@ -2752,6 +2755,8 @@ div.pp_overlay
 .slicknav_menu
 {
 	display: none;
+	/*position: fixed;
+	width: 100%;*/
 }
 .slicknav_menu .col>a
 {
@@ -4001,12 +4006,12 @@ div.pp_overlay
 }
 .jx-section-title-3 .jx-title.small-text
 {
-	font-size: 18px;
+	font-size: 24px;
 	margin-bottom: 3px;
 }
 .jx-section-title-3 .jx-seperator-hr
 {
-	background-color: #ffb300;
+	background-color: #074784;
 	border: 0;
 	border-radius: 25px;
 	height: 20px;
@@ -4030,11 +4035,18 @@ div.pp_overlay
 table tr
 {
 	height: 40px;
-	line-height: 40px;
+    line-height: 40px;
+    color: #000;
+    font-size: 20px;
 }
 table tr:nth-child(even)
 {
-	background: #f9f9f9;
+	background: #074784;
+    color: #fff;
+}
+table tr:nth-child(even) a
+{
+    color: #fff;
 }
 tr
 {
@@ -4042,7 +4054,7 @@ tr
 }
 tr:hover
 {
-	background: #ffb300!important;
+	/*background: #ffb300!important;*/
 	transform: scale(1.02);
 }
 .jx-service-completed-prjcts .jx-completed-prjcts-item
@@ -4061,14 +4073,14 @@ tr:hover
 }
 .jx-completed-prjcts-info
 {
-	background: #ffb300;
+	background: #074784;
 	color: #fff;
 	font-size: 18px;
 	padding: 10px;
 }
 .jx-completed-prjcts-item:hover .jx-completed-prjcts-info
 {
-	background: #333;
+	background: #31353a;
 	cursor: pointer;
 }
 .jx-completed-prjcts-info a
@@ -4078,7 +4090,7 @@ tr:hover
 }
 .jx-completed-prjcts-info a:hover
 {
-	color: #ffb300;
+	color: #fff;
 }
 #sidebar
 {
@@ -5130,6 +5142,26 @@ background-color: #074784 !important;
 	color: #666 ;
 	border-bottom: 1px solid;
     padding-bottom: 5px;
+}
+.slicknav_collapsed{
+	/*position: fixed;*/
+}
+.wrapp_tabte_catigoris{
+	text-align: center;
+	margin: 50px 0px;
+}
+.wrapp_tabte_catigoris table{
+	display: inline;
+}
+
+.wrapp_tabte_catigoris table td{
+	min-width: 300px;
+}
+.my_margin_block{
+	margin: 20px 0px;
+}
+.wrapp_tabte_catigoris a{
+	color: #000;
 }
 /* Конец мои стили */
 
