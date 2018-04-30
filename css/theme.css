@@ -1723,7 +1723,7 @@ dl dt
 }
 .loader
 {
-	background: rgb(239, 30, 37) none repeat scroll 0% 0%;
+	background: rgb(255, 255, 255) none repeat scroll 0% 0%;
 	height: 100%;
 	left: 0;
 	opacity: 1;
@@ -5207,6 +5207,57 @@ background-color: #074784 !important;
 
 .my_block_info a{
 	color: #666;
+}
+.logo{
+	padding-top: 6px;
+}
+
+.my_border_radius{
+	border-radius: 7px;
+}
+.my_border_radius .my_photo{
+	/*border-top-left-radius: 5px;
+    border-top-right-radius: 5px;*/
+    border-radius: 7px;
+}
+.my_border_radius_top{
+	border-top-left-radius: 5px; 
+	border-bottom-left-radius: 5px;
+}
+.my_style_i i{
+	border-top-right-radius: 5px; 
+	border-bottom-right-radius: 5px;
+}
+.main_flex_min,
+.main_flex{
+	display: flex;
+	padding: 20px 0px;
+}
+.wrapp_slaid{
+	flex: 1;
+	outline: none;
+}
+.wrapp_img_slider{
+	text-align: center;
+}
+.wrapp_img_slider img{
+	border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+.wrapp_img_slider img:focus{
+	outline: none;
+}
+.name_prodykts{
+	text-align: center;
+    padding: 20px 0px;
+    font-size: 20px;
+    color: #074784;
+}
+.name_prodykts a{
+	 color: #074784;
 }
 
 /* Конец мои стили */

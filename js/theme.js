@@ -31,3 +31,62 @@ if(color=="32b4c0"){var skin_link="http://janxcode.com/rebuild/css/skins/torquze
 
 var heit = jQuery('.jx-menu-holder').height();
 jQuery('.wrapp_jx-menu-holder').css({"height":heit});
+
+
+
+var slaids;
+var widthBody;
+
+     widthBody = $('body').width();
+
+    if(widthBody > 1200){
+    slaids = 4;
+}
+
+    if(widthBody <= 1200){
+    slaids = 4;
+}
+  if(widthBody <= 760){
+      slaids =2;  
+    }
+      if(widthBody <= 480){
+      slaids =2;  
+    }
+
+
+var slaids_min;
+        if(widthBody > 1200){
+    slaids_min = 5;
+}
+
+    if(widthBody <= 1200){
+    slaids_min = 5;
+}
+  if(widthBody <= 760){
+      slaids_min =2;  
+    }
+      if(widthBody <= 480){
+      slaids_min =2;  
+    }
+
+$('.main_flex').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        infinite: true,
+        slidesToShow: slaids_min,
+        slidesToScroll: 1,
+        // prevArrow: '<img class="lefts" src="images/lefts.png">',  // стрелки
+        // nextArrow: '<img class="righets" src="images/righets.png">'  // стрелки
+    });
+
+$('.main_flex_min').slick({
+        dots: false,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        infinite: true,
+        slidesToShow: slaids,
+        slidesToScroll: 1,
+        // prevArrow: '<img class="lefts" src="images/lefts.png">',  // стрелки
+        // nextArrow: '<img class="righets" src="images/righets.png">'  // стрелки
+    });

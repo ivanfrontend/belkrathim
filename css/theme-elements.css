@@ -41,17 +41,18 @@
 }
 .jx-tagline-box input[type=submit]
 {
-	background: #000;
-	border: 0;
+	background: #074784;
+	border: 1px solid #fff;
 	color: #fff;
 	font-size: 25px;
 	height: 49px;
-	padding: 10px 0;
+	padding: 0px 0;
 	width: 60px;
 }
 .jx-tagline-box input[type=submit]:hover
 {
-	color: #ffb300;
+	color: #fff;
+	background-color: #0f59a0;
 }
 .jx-tagline-box .jx-line-seperator
 {
@@ -192,7 +193,7 @@
 }
 .jx-tagline-box-3 .button
 {
-	background: #000 none repeat scroll 0% 0%;
+	background: #074784 none repeat scroll 0% 0%;
 	border: 2px solid transparent;
 	color: #fff;
 	font-size: 18px;
@@ -204,8 +205,8 @@
 .jx-tagline-box-3 .button:hover
 {
 	background: 0 0;
-	border: 2px solid #000;
-	color: #000;
+	border: 2px solid #074784;
+	color: #074784;
 }
 .container.container-margin .four.columns .jx-countup
 {
