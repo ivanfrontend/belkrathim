@@ -1310,7 +1310,7 @@ button::-moz-focus-inner,input::-moz-focus-inner
 	background-color: #fff;
 	color: #000;
 	text-align: center;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1;
 }
 
@@ -4095,6 +4095,22 @@ tr:hover
 	/*background: #ffb300!important;*/
 	transform: scale(1.02);
 }
+
+.for{
+	/*background: #187ad7e8;*/
+}
+
+.for td{
+	text-align: left;
+	padding: 18px;
+	
+}
+
+.for:hover{
+	transform: none !important;
+	
+}
+
 .jx-service-completed-prjcts .jx-completed-prjcts-item
 {
 	float: left;
@@ -5262,3 +5278,38 @@ background-color: #074784 !important;
 
 /* Конец мои стили */
 
+
+
+
+              /*Стили*/
+
+
+
+.color_title{
+	font-size: 27px;
+	margin-left: 10px;
+	color: #575757;
+}              
+
+.color_body{
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+
+span{
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.pigment_text{
+	display: inline-block;
+	font-size: 17px;
+}
+
+
+.about_table{
+	font-size: 23px;
+	color: #575757;
+	margin-bottom: 35px;
+}
