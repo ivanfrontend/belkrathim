@@ -1,7 +1,7 @@
 *
 {
 	box-sizing: border-box;
-	font-family: raleway,Arial,Helvetica,sans-serif;
+	font-family: streamline-1,Helvetica,sans-serif !important;
 	moz-box-sizing: border-box;
 	webkit-box-sizing: border-box;
 }
@@ -43,7 +43,7 @@ ul.default li:before
 {
 	color: #ffb300;
 	content: '\f005';
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	margin-right: 10px;
 }
 p
@@ -211,7 +211,7 @@ blockquote.right
 h1,h2,h3,h4,h5,h6
 {
 	color: #000;
-	font-family: raleway,Arial,Helvetica,sans-serif;
+	/*font-family: raleway,Arial,Helvetica,sans-serif;*/
 	font-weight: 500;
 }
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a
@@ -335,7 +335,7 @@ mark.orange
 }
 code,kbd,pre,samp
 {
-	font-family: monospace,serif;
+	/*font-family: monospace,serif;*/
 	font-size: 13px;
 	hyphens: none;
 	moz-hyphens: none;
@@ -346,7 +346,7 @@ pre
 {
 	background-color: rgba(0,0,0,.04);
 	color: #666;
-	font-family: monospace;
+	/*font-family: monospace;*/
 	font-size: 13px;
 	margin: 2.3rem 0;
 	margin: 23px 0;
@@ -576,14 +576,28 @@ li p
 {
 	color: #fff!important;
 }
+
+
+
 @font-face
 {
 	font-family: streamline-1;
 	font-style: normal;
 	font-weight: 400;
-	src: url(../fonts/streamline-font-1.eot);
-	src: url(../fonts/streamline-font-1.eot?#iefix) format("embedded-opentype"),url(../fonts/streamline-font-1.woff) format("woff"),url(../fonts/streamline-font-1.ttf) format("truetype"),url(../fonts/streamline-font-1.svg#streamline-font-1) format("svg");
+	src: url(../fonts/sf_light.ttf);
+	/*src: url(../fonts/streamline-font-1.eot);*/
+	/*src: url(../fonts/streamline-font-1.eot?#iefix) format("embedded-opentype"),url(../fonts/streamline-font-1.woff) format("woff"),url(../fonts/streamline-font-1.ttf) format("truetype"),url(../fonts/streamline-font-1.svg#streamline-font-1) format("svg");*/
 }
+
+i{
+	font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+.count_number i{
+	font: normal normal normal 40px/1 FontAwesome !important;
+}
+
+
 [data-icon]:before
 {
 	content: attr(data-icon);
@@ -1007,18 +1021,18 @@ li p
 {
 	content: "\e004";
 }
-@font-face
+/*@font-face
 {
 	font-family: linecons;
 	font-style: normal;
 	font-weight: 400;
 	src: url(../fonts/linecons.eot?17392200#iefix) format('embedded-opentype'),url(../fonts/linecons.woff?17392200) format('woff'),url(../fonts/linecons.ttf?17392200) format('truetype'),url(../fonts/linecons.svg?17392200#linecons) format('svg');
 	src: url(../fonts/linecons.eot?17392200);
-}
+}*/
 [class^=icon-]:before,[class*=" icon-"]:before
 {
 	display: inline-block;
-	font-family: linecons;
+	/*font-family: linecons;*/
 	font-style: normal;
 	font-variant: normal;
 	font-weight: 400;
@@ -1259,13 +1273,13 @@ img
 .section_phone_left span a{
 	color: #fff;
 	font-size: 14px;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
 }
 .section_phone_left span {
 	color: #fff;
 	font-size: 14px;
 	padding: 0px 5px;
-	font-family: sans-serif;
+	/*font-family: sans-serif;*/
 }
 .section_phone_left span i{
 	color: #fff;
@@ -1318,7 +1332,7 @@ img
 	color: #444;
 	cursor: pointer;
 	display: inline-block;
-	font-family: raleway,Arial,Helvetica,sans-serif;
+	/*font-family: raleway,Arial,Helvetica,sans-serif;*/	
 	font-size: 11px;
 	font-weight: 700;
 	line-height: normal;
@@ -2224,7 +2238,7 @@ div.pp_overlay
 {
 	display: inline;
 	float: left;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 50px;
 	font-weight: 400;
 	margin-left: 3px;
@@ -2248,7 +2262,7 @@ div.pp_overlay
 .jx-header .header-info .address,.jx-header .header-info .date
 {
 	color: #fff;
-	font-family: open sans;
+	/*font-family: open sans;*/
 	font-size: 18px;
 	font-weight: 600;
 	padding-bottom: 3px;
@@ -2256,7 +2270,7 @@ div.pp_overlay
 .jx-header .toll-free
 {
 	color: #fff;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 22px;
 	font-weight: 400;
 	line-height: 22px;
@@ -2270,7 +2284,7 @@ div.pp_overlay
 }
 .jx-header .header-info .toll-free-number
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 10px;
@@ -2399,7 +2413,7 @@ div.pp_overlay
 {
 	border-left: 1px solid #fff;
 	display: inline-block;
-	font-family: open sans;
+/*	font-family: open sans;*/
 	line-height: 40px;
 	margin: 0;
 }
@@ -2544,7 +2558,7 @@ div.pp_overlay
 }
 .menu li a
 {
-	font-family: open sans;
+	/*font-family: open sans;*/
 }
 .menu li.with-sub:hover:before
 {
@@ -2596,7 +2610,7 @@ div.pp_overlay
 	color: #000;
 	content: '\f107';
 	display: block;
-	font-family: fontawesome;
+/*	font-family: fontawesome;*/
 	height: 0;
 	position: absolute;
 	right: -3px;
@@ -2750,7 +2764,7 @@ div.pp_overlay
 {
 	color: #fff;
 	content: '\f105';
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 15px;
 	height: 36px;
 	line-height: 37px;
@@ -2999,7 +3013,7 @@ div.pp_overlay
 .slicknav_nav .with-sub .slicknav_row:before
 {
 	content: '\f054';
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 12px;
 }
 .slicknav_menu .slicknav_menutxt
@@ -3122,8 +3136,8 @@ div.pp_overlay
 {
 	background: rgb(239, 30, 37);
 	color: #fff;
-	font-family: oswald;
-	font-size: 55px!important;
+	/*font-family: oswald;*/
+	font-size: 45px!important;
 	height: 78px;
 	line-height: 78px!important;
 	padding: 0 30px!important;
@@ -3148,7 +3162,7 @@ div.pp_overlay
 {
 	background: #074784!important;
 	color: #fff!important;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 15px!important;
 	line-height: 1.2!important;
 	padding: 20px!important;
@@ -3270,7 +3284,7 @@ div.pp_overlay
 .jx-error-page .jx-error-code
 {
 	color: #000;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 320px;
 	margin-top: 60px;
 }
@@ -3314,7 +3328,7 @@ div.pp_overlay
 {
 	color: #ffb300;
 	content: '\f00c';
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	margin-right: 10px;
 }
 .jx-btn.jx-colored span
@@ -3354,7 +3368,7 @@ div.pp_overlay
 .jx-footer-1 .jx-footer h3
 {
 	color: #ffb300;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 40px;
 	font-weight: 600;
 	padding: 4px 0 11px;
@@ -3409,7 +3423,7 @@ div.pp_overlay
 .jx-footer-2 .jx-footer h3
 {
 	color: #ffb300;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 40px;
 	font-weight: 600;
 	padding: 4px 0 11px;
@@ -3481,7 +3495,7 @@ div.pp_overlay
 .jx-footer-3 .jx-footer h3
 {
 	color: #ffb300;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 40px;
 	font-weight: 600;
 	padding: 4px 0 11px;
@@ -3688,7 +3702,7 @@ div.pp_overlay
 }
 .jx-footer-address ul li
 {
-	font-family: open sans;
+	/*font-family: open sans;*/
 	margin: 0;
 	padding: 0 0 10px;
 }
@@ -3774,7 +3788,7 @@ div.pp_overlay
 .jx-widget-request-quote .title
 {
 	color: #c7c7c7;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 25px;
 	line-height: 30px;
 	padding-bottom: 10px;
@@ -3783,7 +3797,7 @@ div.pp_overlay
 .jx-widget-request-quote .number
 {
 	color: #fff;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 45px;
 	line-height: 40px;
 	padding-bottom: 10px;
@@ -3816,7 +3830,7 @@ div.pp_overlay
 	border: 1px solid #ffb300;
 	border-radius: 50px;
 	color: #000;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 25px;
 	font-weight: 500;
 	padding: 17px 0;
@@ -3892,7 +3906,7 @@ div.pp_overlay
 	border-radius: 0 5px 5px 0;
 	color: #fff;
 	float: left;
-	font-family: Arial,Helvetica,sans-serif;
+	/*font-family: Arial,Helvetica,sans-serif;*/
 	font-size: 16px;
 	font-weight: 500;
 	height: 48px;
@@ -3918,7 +3932,7 @@ div.pp_overlay
 .jx-widget-contact-us ul li
 {
 	float: left;
-	font-family: Arial,Helvetica,sans-serif;
+	/*font-family: Arial,Helvetica,sans-serif;*/
 	margin: 0;
 	padding: 0 50px 0 0;
 }
@@ -4018,7 +4032,7 @@ div.pp_overlay
 {
 	color: #333;
 	float: left;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 30px;
 	font-weight: 400;
 	line-height: 1.2em;
@@ -4071,7 +4085,7 @@ div.pp_overlay
 .jx-section-title-2 .jx-title
 {
 	color: #333;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 35px;
@@ -4109,7 +4123,7 @@ div.pp_overlay
 .jx-section-title-3 .jx-title
 {
 	color: #333;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 28px;
 	font-weight: 600;
 	line-height: 35px;
@@ -4368,7 +4382,7 @@ tr:hover
 }
 .jx-sidebar-address ul li
 {
-	font-family: open sans;
+	/*font-family: open sans;*/
 	margin: 0;
 	padding: 0 0 26px;
 }
@@ -4405,7 +4419,7 @@ tr:hover
 	background: #333;
 	border-radius: 50%;
 	float: left;
-	font-family: open sans;
+	/*font-family: open sans;*/
 	font-size: 15px;
 	height: 40px;
 	line-height: 40px;
@@ -4500,7 +4514,7 @@ tr:hover
 	border-right: 1px solid;
 	color: #999;
 	display: inline-block;
-	font-family: open sans;
+	/*font-family: open sans;*/
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 1;
@@ -4845,7 +4859,7 @@ ul.comments .comment-block .date
 .jx-sidebar-recent-post .date
 {
 	color: #999;
-	font-family: open sans;
+	/*font-family: open sans;*/
 	font-size: 14px;
 	padding-bottom: 4px;
 }
@@ -4936,7 +4950,7 @@ ul.comments .comment-block .date
 	color: #fff;
 	cursor: default;
 	filter: alpha(opacity=0);
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 13px;
 	height: 33px;
 	khtml-opacity: 0;
