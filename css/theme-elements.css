@@ -7,13 +7,13 @@
 }
 .jx-tagline-box h2
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	line-height: 1;
 	text-transform: uppercase;
 }
 .jx-tagline-box h3
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 50px;
 	line-height: 1;
 }
@@ -69,14 +69,14 @@
 .jx-tagline-box-1 h2
 {
 	color: #000;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 44px;
 	font-weight: 400;
 }
 .jx-tagline-box-1 h3
 {
 	color: #fff;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 36px;
 	font-weight: 600;
 }
@@ -129,7 +129,7 @@
 .jx-tagline-box-2 h2
 {
 	color: #fff;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 37px;
 	font-weight: 200;
 	font-weight: 400;
@@ -220,7 +220,7 @@
 .jx-counter-up .count_number
 {
 	color: #333;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 82px;
 	font-weight: 400;
 	line-height: 82px;
@@ -269,7 +269,7 @@
 	background: #ffb300;
 	color: #333;
 	display: inline-block;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 90px;
 	height: 120px;
 	line-height: 120px;
@@ -282,7 +282,7 @@
 	background: 0 0;
 	color: #333;
 	display: inline-block;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 90px;
 	height: 120px;
 	line-height: 120px;
@@ -313,7 +313,7 @@
 }
 .jx-price-1 .title
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 40px;
 	line-height: 40px;
 	padding: 29px 0 0;
@@ -322,7 +322,7 @@
 .jx-price-1 .price
 {
 	color: #333;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 85px;
 	line-height: 85px;
 	padding: 33px 0 18px;
@@ -358,8 +358,8 @@
 	border: 1px solid transparent;
 	color: #fff;
 	display: inline-block;
-	font-family: oswald;
-	font-family: raleway;
+	/*font-family: oswald;
+	font-family: raleway;*/
 	font-size: 18px;
 	font-weight: 700;
 	padding: 13px 30px;
@@ -975,7 +975,7 @@
 	border: 1px solid #ccc;
 	border-radius: 50%;
 	display: inline-block;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 40px;
 	font-weight: 200;
 	height: 40px;
@@ -1186,7 +1186,7 @@
 	border-radius: 50px;
 	color: #fff;
 	display: block;
-	font-family: Relaway;
+	/*font-family: Relaway;*/
 	font-size: 40px;
 	height: 48px;
 	margin: 0 auto;
@@ -1341,7 +1341,7 @@
 {
 	bottom: 2px;
 	color: #fff;
-	font-family: Arial;
+	/*font-family: Arial;*/
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 14px;
@@ -1382,7 +1382,7 @@
 	border: 1px solid #e4e4e4;
 	color: #fff;
 	display: inline-block;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 18px;
 	font-weight: 400;
 	height: 48px;
@@ -1485,7 +1485,7 @@
 }
 .jx-skillsbar-1 .percent-number .jx-percent-posttext
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 16px;
 	margin-left: 6px;
 }
@@ -1520,7 +1520,7 @@
 	border-radius: 5px;
 	color: #333;
 	float: left;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 40px;
 	height: 80px;
 	line-height: 80px;
@@ -1546,7 +1546,7 @@
 	border-radius: 5px;
 	color: #333;
 	content: '';
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 30px;
 	height: 65px;
 	left: 5px;
@@ -1605,7 +1605,7 @@
 .jx-process-2 .title
 {
 	color: #333;
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 26px;
 	font-weight: 400;
 	padding-left: 25px;
@@ -1705,7 +1705,7 @@
 	color: #fff;
 	content: "\f105";
 	float: left;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 22px;
 	height: 45px;
 	line-height: 45px!important;
@@ -1720,7 +1720,7 @@
 	color: #333;
 	content: "\f105";
 	float: right;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 22px;
 	height: 45px;
 	line-height: 45px!important;
@@ -1736,7 +1736,7 @@
 	color: #fff;
 	content: "\f105";
 	float: right;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 22px;
 	height: 45px;
 	line-height: 45px!important;
@@ -1755,7 +1755,7 @@
 	color: #333;
 	content: "\f067";
 	float: left;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 18px!important;
 	font-weight: 200;
 	height: 45px;
@@ -1770,7 +1770,7 @@
 	color: #fff;
 	content: "\f068";
 	float: left;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 18px!important;
 	font-weight: 200;
 	height: 45px;
@@ -1786,7 +1786,7 @@
 	color: #333;
 	content: "\f067";
 	float: right;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 22px;
 	height: 45px;
 	line-height: 45px!important;
@@ -1802,7 +1802,7 @@
 	color: #fff;
 	content: "\f068";
 	float: right;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 22px;
 	height: 45px;
 	line-height: 45px!important;
@@ -2230,7 +2230,7 @@
 	color: #333;
 	content: '\f10d';
 	display: inherit;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	padding-bottom: 6px;
 }
 .jx-testimonials-2.dark .name
@@ -2300,7 +2300,7 @@
 	color: #fff;
 	content: '\f053';
 	display: inline-block;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 20px;
 	height: 35px;
 	line-height: 35px;
@@ -2350,7 +2350,7 @@
 	border-radius: 5px;
 	color: #333;
 	display: inline-block;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 20px;
 	height: 35px;
 	line-height: 35px;
@@ -2546,7 +2546,7 @@
 {
 	background: #ffb300;
 	color: #fff!important;
-	font-family: raleway;
+	/*font-family: raleway;*/
 	font-size: 18px;
 	font-weight: 500;
 	padding-left: 47px;
@@ -2663,7 +2663,7 @@
 }
 .jx-contact-info .phone,.jx-contact-info .fax,.jx-contact-info .date-time
 {
-	font-family: Arial,Helvetica,sans-serif;
+	/*font-family: Arial,Helvetica,sans-serif;*/
 }
 .jx-blockquote
 {
@@ -2672,7 +2672,7 @@
 {
 	border-left: 5px solid;
 	border-left-color: #ffb300;
-	font-family: Georgia,times new roman,Times,serif;
+	/*font-family: Georgia,times new roman,Times,serif;*/
 	font-size: 16px;
 	font-style: oblique;
 	margin: 15px 20px;
@@ -2749,7 +2749,7 @@
 }
 .jx-list-group.font-x3
 {
-	font-family: oswald;
+	/*font-family: oswald;*/
 	font-size: 20px;
 }
 .jx-list-group li span
@@ -2966,7 +2966,7 @@
 	color: rgba(0,0,0,.8);
 	content: '\f104';
 	display: inline-block;
-	font-family: fontawesome;
+	/*font-family: fontawesome;*/
 	font-size: 20px;
 	text-shadow: none;
 }

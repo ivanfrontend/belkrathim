@@ -1254,6 +1254,7 @@ img
 	display: inline-block;
 	width: 69%;
 	padding: 10px 0px;
+	text-align: center;
 }
 .section_phone_left span a{
 	color: #fff;
