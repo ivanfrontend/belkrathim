@@ -94,7 +94,7 @@
 	<span class="date" ><i style="padding-right: 5px;" class="fa fa-phone"></i><a class="value" style="color: #ccc;" href="tel:+375336377609">+375 (33) 637-76-09</a></span> -->
 		</div>
 	</div>
-<div class="jx-menu-holder jx-sticky.fixed">
+<div class="jx-menu-holder jx-sticky.fixed" id="topYes" >
 <div class="container my-center">
 <div class="header-menu-left">
 <div class="nav_container">
@@ -1177,5 +1177,34 @@
 <script src="js/custom/home.js"></script>
 
 <script src="js/theme.js"></script>
+
+
+<!-- <script type="text/javascript">
+	
+
+	var topYes = document.getElementById("topYes");
+	console.log(topYes);
+
+
+	function getScroll(){
+
+	var ffPos =  document.documentElement.scrollTop;
+	console.log(ffPos );//+ " " + pageTwoPos);
+	if( ffPos >= 100) {
+		topYes.style.position = "fixed";
+		topYes.style.top = "0px";
+	}
+	else  {
+		topYes.style.position = "absolute";
+		topYes.style.top = "";
+
+	}
+}
+
+
+ window.onscroll = getScroll;
+
+</script> -->
+
 </body>
 </html>
