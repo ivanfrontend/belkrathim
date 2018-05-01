@@ -2457,6 +2457,13 @@ div.pp_overlay
 	top: 0;
 	width: 100%!important;
 }
+
+.wrapp_jx-menu-holder{
+	position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
 .jx-menu-holder
 {
 	/*background: url(../images/myimg/pettran-01.jpg) repeat-x 0 0;*/
@@ -2467,7 +2474,7 @@ div.pp_overlay
 	/*margin: -40px auto 0;*/
 	max-width: 100%;
 	/*position: absolute;*/
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	z-index: 7;
 }
@@ -5351,3 +5358,6 @@ span{
 	color: #575757;
 	margin-bottom: 35px;
 }
+
+
+
