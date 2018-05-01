@@ -1273,12 +1273,40 @@ img
 	display: inline-block;
 	width: 30%;
 	text-align: right;
+	position: relative;
 }
-.section_serch_righet input{
+.section_serch_righet .serch{
 	margin: 10px 0px !important;
 	width: 70% !important;
 	display: inline-block !important;
+	padding: 10px  58px 10px 7px;	
+	font-size: 14px;
+	color: #074784;
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+.section_serch_righet .serch:focus{
+	    border: 1px solid #fff;
+}
+
+.section_serch_righet .btn_submit{
 	padding: 10px 7px;
+	font-size: 14px;
+	color: #fff;
+	background-color: #074784;
+	border: 1px solid #fff;	
+	outline: none;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	border-top-right-radius: 2px;
+	border-bottom-right-radius: 2px;
+
+}
+.section_serch_righet .btn_submit:hover{
+	border: 1px solid #fff;	
+	color: #fff;
+	background-color: #0f59a0;
 }
 .button,button,input[type=submit],input[type=reset],input[type=button]
 {
