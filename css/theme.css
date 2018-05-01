@@ -1242,6 +1242,44 @@ img
 	vertical-align: middle;
 	z-index: 0;
 }
+
+.my_top_menu{
+	width: 100%;
+	/*height: 100px;*/
+	background-color: #074784;
+}
+.my_display_flex{
+}
+.section_phone_left{
+	display: inline-block;
+	width: 69%;
+	padding: 10px 0px;
+}
+.section_phone_left span a{
+	color: #fff;
+	font-size: 14px;
+	font-family: sans-serif;
+}
+.section_phone_left span {
+	color: #fff;
+	font-size: 14px;
+	padding: 0px 5px;
+	font-family: sans-serif;
+}
+.section_phone_left span i{
+	color: #fff;
+}
+.section_serch_righet{
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+}
+.section_serch_righet input{
+	margin: 10px 0px !important;
+	width: 70% !important;
+	display: inline-block !important;
+	padding: 10px 7px;
+}
 .button,button,input[type=submit],input[type=reset],input[type=button]
 {
 	background: #eee;
