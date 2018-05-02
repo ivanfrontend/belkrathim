@@ -2597,7 +2597,7 @@ div.pp_overlay
 {
 	border-top: 4px solid transparent;
 	display: inline-block;
-	margin: -14px 0;
+	margin: -11px 0;
 	padding: 11px 0;
 	vertical-align: top;
 }
@@ -2610,7 +2610,7 @@ div.pp_overlay
 	color: #000;
 	content: '\f107';
 	display: block;
-/*	font-family: fontawesome;*/
+	font-family: fontawesome;
 	height: 0;
 	position: absolute;
 	right: -3px;
@@ -2723,7 +2723,7 @@ div.pp_overlay
 	display: block;
 	float: none;
 	font-weight: 500;
-	padding: 9px 20px;
+	padding: 9px 30px 9px 30px;
 }
 .menu .submenu li:last-child
 {
@@ -2764,7 +2764,7 @@ div.pp_overlay
 {
 	color: #fff;
 	content: '\f105';
-	/*font-family: fontawesome;*/
+	font-family: fontawesome;
 	font-size: 15px;
 	height: 36px;
 	line-height: 37px;
@@ -5313,7 +5313,7 @@ background-color: #074784 !important;
 	color: #666;
 }
 .logo{
-	padding-top: 6px;
+	padding-top: 10px;
 }
 
 .my_border_radius{
